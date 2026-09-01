@@ -1,0 +1,42 @@
+VETH - INSTALACION Y EJECUCION
+
+1. REQUISITOS
+
+- Windows, macOS o Linux de 64 bits.
+- Node.js 20.19 o superior (tambien compatible con Node.js 22.12 o superior).
+- npm, incluido con Node.js.
+- Navegador web actualizado con WebGL habilitado.
+- Conexion a Internet para instalar las dependencias.
+
+2. INSTALACION
+
+1. Abrir una terminal en la carpeta raiz del proyecto.
+2. Instalar las dependencias:
+
+   npm install
+
+3. EJECUTAR EL JUEGO
+
+Iniciar el servidor de desarrollo:
+
+   npm run dev
+
+Abrir en el navegador la direccion mostrada en la terminal. Por defecto:
+
+   http://localhost:5173
+
+4. CREAR UNA BUILD DE PRODUCCION
+
+   npm run build
+
+La build se genera en la carpeta dist.
+
+5. EJECUTAR LA BUILD
+
+Iniciar el servidor de previsualizacion:
+
+   npm run preview
+
+Abrir en el navegador la direccion mostrada en la terminal. Por defecto:
+
+   http://localhost:4173
